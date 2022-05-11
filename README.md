@@ -1,7 +1,7 @@
-# Aprendendo JavaScript
+# Aprendendo Django
 
- <div>Dedico todos os créditos e conhecimentos práticos da linguagem JavaScript ao professor Gustavo Guanabara do Curso em Vídeo</div>
- <div>É o curso completo de JavaScript, com algumas modificações minhas próprias, referente a linguagem JavaScript</div>
+ <div>Dedico todos os créditos e conhecimentos práticos do Framework Django ao professor Rafael Galleani da Digital Innovation One Inc.</div>
+ <div>É um curso explicativo de como funciona o framework Django</div>
 
  # Social Medias
 <div>
