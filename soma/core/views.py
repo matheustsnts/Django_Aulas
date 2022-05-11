@@ -14,7 +14,7 @@ def calculo(request, op, num1,num2):
         res = num1 * num2
         return HttpResponse(f'<h1>{res}</h1>')
     elif (op == 'divisão'):
-        res = num1 / num2
-        return HttpResponse(f'<h1>{res}</h1>')
+        res = round((num1 / num2),2)
+        return HttpResponse(f'<h1>{str(res).replace(".",",")}</h1>')
     else:
         return HttpResponse('<h1>Você digitou a operação errada, cowboy.</h1>')
