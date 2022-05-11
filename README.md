@@ -1,6 +1,6 @@
 # Aprendendo Django
 
- <div>Dedico todos os créditos e conhecimentos práticos do Framework Django ao professor Rafael Galleani da Digital Innovation One Inc.</div>
+ <div>Dedico todos os créditos e conhecimentos práticos do Framework Django da linguagem Python ao professor Rafael Galleani da Digital Innovation One Inc.</div>
  <div>É um curso explicativo de como funciona o framework Django</div>
 
  # Social Medias
