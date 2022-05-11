@@ -7,12 +7,14 @@ def calculo(request, op, num1,num2):
     if (op == 'adição'):
         res = num1 + num2
         return HttpResponse(f'<h1>{res}</h1>')
-    if (op == 'subtração'):
+    elif (op == 'subtração'):
         res = num1 - num2
         return HttpResponse(f'<h1>{res}</h1>')
-    if (op == 'multiplicação'):
+    elif (op == 'multiplicação'):
         res = num1 * num2
         return HttpResponse(f'<h1>{res}</h1>')
-    if (op == 'divisão'):
+    elif (op == 'divisão'):
         res = num1 / num2
         return HttpResponse(f'<h1>{res}</h1>')
+    else:
+        return HttpResponse('<h1>Você digitou a operação errada, cowboy.</h1>')
